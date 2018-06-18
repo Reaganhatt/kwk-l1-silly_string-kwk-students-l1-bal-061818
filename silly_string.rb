@@ -43,9 +43,8 @@ puts proper_sentence
 
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
-A = "O"
-a = "o"
+
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence.gsub("a","o") sentence.gsub("A","O")
+sentence = sentence.gsub("a","o").gsub("A","O")
 puts sentence
