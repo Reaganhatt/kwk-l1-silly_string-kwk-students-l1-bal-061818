@@ -47,6 +47,6 @@ A = "O"
 a = "o"
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence A = ("a","o") ("A","O")
+sentence = sentence A = ("a""o") ("A""O")
 
 puts sentence
